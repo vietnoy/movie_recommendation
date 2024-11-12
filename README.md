@@ -23,7 +23,7 @@ The dataset will be processed to calculate similarity scores and generate recomm
 
 ## Project Overview
 
-This project is designed to recommend movies based on cosine similarity between different movies' features. By comparing attributes such as genres, keywords, cast, and crew, the system suggests movies that are closest in content and style to the selected movie.
+This project is designed to recommend movies based on euclidean distance between different movies' features. By comparing attributes such as genres, actors' name and director's name, the system suggests movies that are closest in content and style to the selected movie.
 
 ### Key Features
 - **Content-Based Filtering**: Recommends similar movies based on their content.
